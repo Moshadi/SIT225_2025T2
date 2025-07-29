@@ -3,7 +3,6 @@ import time
 import random
 from datetime import datetime
 
-# Replace this with your Arduino port
 ser = serial.Serial('COM4', 9600, timeout=1)
 
 
